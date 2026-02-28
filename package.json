@@ -76,7 +76,7 @@
   },
   "strapi": {
     "kind": "plugin",
-    "name": "multi-select",
+    "name": "multi-select-with-other",
     "displayName": "Multi Select Input",
     "description": "A strapi custom field for selecting multiple options from a provided list of items."
   }

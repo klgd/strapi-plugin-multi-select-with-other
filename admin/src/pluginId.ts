@@ -1,1 +1,1 @@
-export const PLUGIN_ID = 'multi-select';
+export const PLUGIN_ID = 'multi-select-with-other';
