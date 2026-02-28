@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-multi-select",
+  "name": "strapi-plugin-multi-select-with-other",
   "version": "2.1.1",
   "description": "A strapi custom field for selecting multiple options from a provided list of items.",
   "keywords": [
