@@ -1,6 +1,8 @@
 import { Tag } from '@strapi/design-system';
 import { Cross } from '@strapi/icons';
 
+const OTHER_VALUE = '__other__';
+
 export default ({
   selectProps,
   data,
@@ -15,9 +17,15 @@ export default ({
     e.preventDefault();
     selectProps.onChange(selectProps.value.filter((v: any) => v !== data));
   };
+
+  const displayLabel =
+    data.value === OTHER_VALUE && selectProps.otherText
+      ? `${data.label}: ${selectProps.otherText}`
+      : data.label;
+
   return (
     <Tag tabIndex={-1} icon={<Cross />} onClick={handleTagClick(data)}>
-      {data.label}
+      {displayLabel}
     </Tag>
   );
 };

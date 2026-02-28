@@ -1,6 +1,9 @@
 {
   "multi-select.label": "Multi Select With Other",
-  "multi-select.description": "Select multiple options from a list with the ability to add other options",
+  "multi-select.description": "Select multiple options from a list with other",
   "multi-select.enum.label": "Options (one per line)",
-  "multi-select.enum.description": "Enter one option per line. You can also add a value and a label separated by a colon (e.g. \"label:value\").\nIf no value is provided, the label will be used as the value"
+  "multi-select.enum.description": "Enter one option per line. You can also add a value and a label separated by a colon (e.g. \"label:value\").\nIf no value is provided, the label will be used as the value",
+  "multi-select.other.label": "Other",
+  "multi-select.other.placeholder": "Please specify",
+  "multi-select.other.error": "Please enter a value for \"Other\""
 }

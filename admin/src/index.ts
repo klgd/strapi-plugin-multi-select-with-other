@@ -12,11 +12,11 @@ export default {
       icon: MultiSelectIcon,
       intlLabel: {
         id: getTrad('multi-select.label'),
-        defaultMessage: 'Multi Select',
+        defaultMessage: 'Multi Select With Other',
       },
       intlDescription: {
         id: getTrad('multi-select.description'),
-        defaultMessage: 'Select multiple options from a list',
+        defaultMessage: 'Select multiple options from a list with other',
       },
       components: {
         Input: async () => import('./components/MultiSelect'),
