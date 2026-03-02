@@ -6,7 +6,7 @@ import { useIntl } from 'react-intl';
 import MultiValueContainer from './MultiValueContainer';
 import { getTrad } from '../../utils/getTrad';
 
-const OTHER_VALUE = '__other__';
+const OTHER_VALUE = 'Other';
 
 interface StoredValue {
   v: string[];
